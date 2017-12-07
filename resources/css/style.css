@@ -1,0 +1,23 @@
+h1,
+h2 {
+  font-family: "Gill Sans";
+  font-weight: lighter;
+}
+
+.header h1 {
+  font-size: 80px;
+  background-color: red;
+  color: white;
+}
+
+p {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.navbar li {
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-weight: 200;
+}
