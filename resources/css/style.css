@@ -124,6 +124,7 @@ h1.leadtext {
 
 #branches {
   margin-top: 2rem;
+  border: 1px red solid;
   border-radius: 4px;
   padding: .5rem;
   background-color: rgb(256, 256, 256);
@@ -166,6 +167,7 @@ h1.leadtext {
 
 #newsletter {
   margin-top: 2rem;
+  border: 1px red solid;
   border-radius: 4px;
   padding: .5rem;
   background-color: rgb(256, 256, 256);
