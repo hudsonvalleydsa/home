@@ -71,6 +71,10 @@ nav div:first-child {
   padding-left: .5rem;
 }
 
+nav div span {
+  white-space: pre;
+}
+
 nav ul {
   display: flex;
   list-style: none;
