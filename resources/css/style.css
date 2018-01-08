@@ -1,23 +1,196 @@
-h1,
-h2 {
-  font-family: "Gill Sans";
-  font-weight: lighter;
-}
+/* 0.0 Body */
 
-.header h1 {
-  font-size: 80px;
-  color: white;
-  background: url("../images/logo.png");
-}
-
-p {
-  font-family: "Helvetica Neue";
+html {
   font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue";
   font-weight: 200;
 }
 
-.navbar li {
-  font-family: "Helvetica Neue";
-  font-size: 20px;
+h1,
+h2,
+h3 {
+  font-family: "Gill Sans";
   font-weight: 200;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* 1.0 Header */
+
+header {
+  background-image: url('../images/newburghbeaconbridge.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  padding: 1rem;
+  position: relative;
+}
+
+/* 1.1 Navigation Bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(237, 28, 36);
+  font-family: "Helvetica Neue";
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0 1rem;
+  border-radius: 4px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav img {
+  height: 3rem;
+  width: auto;
+  padding-right: 1rem;
+}
+
+nav div {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav div:first-child {
+  padding-left: .5rem;
+}
+
+nav div span {
+  white-space: pre;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding: 0 .5rem;
+}
+
+nav li:hover {
+  background-color: rgb(256, 256, 256);
+  border-radius: 4px;
+}
+
+nav li a:hover {
+  color: rgb(237, 28, 36);
+}
+
+/* 1.2 Slogan Box */
+
+.sloganbox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slogan {
+  margin-top: 15rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+  background-color: rgba(237, 28, 36, 0.25);
+}
+
+/* 2. Main Content */
+
+h1.leadtext {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Helvetica Neue";
+}
+
+/* 2.1 Branches */
+
+#branches {
+  margin-top: 2rem;
+  border-radius: 4px;
+  padding: .5rem;
+  background-color: rgb(237, 28, 36);
+  text-align: center;
+}
+
+#branches h2 {
+  background-color: white;
+  margin: 1rem 1rem .5rem 1rem;
+  padding: .5rem;
+  border-radius: 4px;
+}
+
+.locationboxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.locationbox {
+  background-color: white;
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 4px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.locationboxes.eventdetails {
+  margin-top: -1.9rem;
+}
+
+/* 2.2 Newsletter */
+
+#newsletter {
+  margin-top: 2rem;
+  border-radius: 4px;
+  padding: .5rem;
+  background-color: rgb(237, 28, 36);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#newsletter h2 {
+  background-color: white;
+  margin: 1rem 1rem .5rem 1rem;
+  padding: .5rem;
+  border-radius: 4px;
+}
+
+.textinputbox {
+  margin-top: -1.375rem;
+}
+
+
+/* 3. Footer */
+
+footer {
+  background-color: rgb(237, 28, 36);
+  margin-top: 2rem;
+  padding: 5rem 0rem;
+}
+
+footer div {
+  color: rgb(256, 256, 256);
 }
