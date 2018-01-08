@@ -71,10 +71,6 @@ nav div:first-child {
   padding-left: .5rem;
 }
 
-nav div span {
-  white-space: pre;
-}
-
 nav ul {
   display: flex;
   list-style: none;
@@ -160,7 +156,7 @@ h1.leadtext {
 }
 
 .locationboxes.eventdetails {
-  margin-top: -1.5rem;
+  margin-top: -1.75rem;
 }
 
 /* 2.2 Newsletter */
@@ -185,7 +181,7 @@ h1.leadtext {
 }
 
 .textinputbox {
-  margin-top: -1.5rem;
+  margin-top: -1.75rem;
 }
 
 
