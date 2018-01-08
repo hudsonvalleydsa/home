@@ -30,7 +30,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 25rem;
+  height: 30rem;
   padding: 1rem;
   position: relative;
 }
@@ -78,6 +78,7 @@ nav div span {
 nav ul {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
 nav li {
@@ -97,18 +98,18 @@ nav li a:hover {
 
 .sloganbox {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .slogan {
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
 
 header h1 {
   font-size: 2rem;
   color: white;
   padding: 1rem;
-  background-color: rgba(237, 28, 36, 0.25);
+  background-color: rgba(237, 28, 36, 0.5);
 }
 
 /* 2. Main Content */
@@ -125,12 +126,13 @@ h1.leadtext {
   margin-top: 2rem;
   border-radius: 4px;
   padding: .5rem;
-  background-color: rgb(237, 28, 36);
+  background-color: rgb(256, 256, 256);
   text-align: center;
 }
 
 #branches h2 {
-  background-color: white;
+  background-color: rgb(237, 28, 36);
+  color: rgb(256, 256, 256);
   margin: 1rem 1rem .5rem 1rem;
   padding: .5rem;
   border-radius: 4px;
@@ -143,7 +145,8 @@ h1.leadtext {
 }
 
 .locationbox {
-  background-color: white;
+  background-color: rgb(237, 28, 36);
+  color: rgb(256, 256, 256);
   margin: 1rem;
   padding: .5rem;
   border-radius: 4px;
@@ -156,7 +159,7 @@ h1.leadtext {
 }
 
 .locationboxes.eventdetails {
-  margin-top: -1.9rem;
+  margin-top: -1.5rem;
 }
 
 /* 2.2 Newsletter */
@@ -165,21 +168,22 @@ h1.leadtext {
   margin-top: 2rem;
   border-radius: 4px;
   padding: .5rem;
-  background-color: rgb(237, 28, 36);
+  background-color: rgb(256, 256, 256);
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
 #newsletter h2 {
-  background-color: white;
-  margin: 1rem 1rem .5rem 1rem;
+  background-color: rgb(237, 28, 36);
+  color: rgb(256, 256, 256);
+  margin: 1rem;
   padding: .5rem;
   border-radius: 4px;
 }
 
 .textinputbox {
-  margin-top: -1.375rem;
+  margin-top: -1.5rem;
 }
 
 
