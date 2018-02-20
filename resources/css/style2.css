@@ -29,6 +29,16 @@
   border-color: rgba(140, 15, 15, 1);
 }
 
+.inline {
+  display: inline;
+}
+
 .text-align-center {
   text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+  .mobilespacing {
+    display: none;
+  }
 }
