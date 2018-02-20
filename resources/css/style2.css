@@ -24,6 +24,11 @@
   border-color: rgba(125, 5, 5, 1);
 }
 
+.btn-primary:hover {
+  background-color: rgba(180, 30, 30, 1);
+  border-color: rgba(140, 15, 15, 1);
+}
+
 .text-align-center {
   text-align: center;
 }
